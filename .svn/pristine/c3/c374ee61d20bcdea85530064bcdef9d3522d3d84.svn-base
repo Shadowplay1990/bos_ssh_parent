@@ -1,0 +1,5 @@
+com\tang\web\action\base\BaseAction.class
+com\tang\web\intercepter\LoginIntercepter.class
+com\tang\web\action\staff\StaffAction.class
+com\tang\web\action\RegionAction.class
+com\tang\web\action\user\UserAction.class

@@ -1,0 +1,3 @@
+com\tang\base\com\tang\user\UserDao.class
+com\tang\base\BaseDao.class
+com\tang\base\impl\BaseDaoImpl.class

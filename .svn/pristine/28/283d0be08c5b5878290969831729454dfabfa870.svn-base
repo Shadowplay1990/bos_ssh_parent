@@ -1,0 +1,23 @@
+package com.tang.base;
+
+import com.tang.base.impl.BaseDaoImpl;
+import com.tang.domain.User;
+import com.tang.utils.Parameters;
+import org.springframework.stereotype.Repository;
+
+/**
+ * @author: Tang Jiujia
+ * @version: 2017/5/6 0006 23:02
+ */
+@Repository
+public class UserDao extends BaseDaoImpl<User>{
+
+    public User findByNameAndPwd(User user){
+        return get("from User where username=:p1 and password=:p2",
+                new Parameters(user.getUsername(),user.getPassword()));
+    }
+
+    public void updatePwd(User user){
+        update(user);
+    }
+}

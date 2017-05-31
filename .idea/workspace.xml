@@ -1,0 +1,913 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="4e706c7b-956a-4a49-a62e-1efde323d812" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bos_ssh_service/src/main/java/com/tang/realm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bos_ssh_util/src/main/java/com/tang/crm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bos_ssh_util/src/main/java/com/tang/crm/service" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_3_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_extensions_guice_multibindings_3_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_3_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_core_2_2_10_b140310_1920.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_2_10_b140310_1920.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_core_3_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_bindings_soap_3_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_bindings_xml_3_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_databinding_jaxb_3_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_frontend_jaxws_3_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_frontend_simple_3_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_transports_http_3_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_ws_addr_3_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_ws_policy_3_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_wsdl_3_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_neethi_neethi_3_0_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_all_1_3_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_3_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_guice_1_3_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ws_xmlschema_xmlschema_core_2_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_4_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__wsdl4j_wsdl4j_1_6_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_resolver_xml_resolver_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bos_ssh_dao/src/main/java/com/tang/base/DecidezoneDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bos_ssh_dao/src/main/java/com/tang/base/NoticeBillDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bos_ssh_dao/src/main/java/com/tang/base/SubareaDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bos_ssh_dao/src/main/java/com/tang/base/WorkbillDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bos_ssh_dao/src/main/java/com/tang/base/WorkordermanagerDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bos_ssh_domain/src/main/java/com/tang/domain/Noticebill.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bos_ssh_domain/src/main/java/com/tang/domain/RegionHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bos_ssh_domain/src/main/java/com/tang/domain/Workbill.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bos_ssh_domain/src/main/java/com/tang/domain/Workordermanager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bos_ssh_service/src/main/java/com/tang/realm/UserRealm.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bos_ssh_service/src/main/java/com/tang/service/DecidezoneService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bos_ssh_service/src/main/java/com/tang/service/NoticebillService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bos_ssh_service/src/main/java/com/tang/service/SubareaService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bos_ssh_service/src/main/java/com/tang/service/WorkordermanagerService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bos_ssh_util/src/main/java/com/tang/crm/service/Customer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bos_ssh_util/src/main/java/com/tang/crm/service/CustomerService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bos_ssh_util/src/main/java/com/tang/utils/FileUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bos_ssh_web/src/main/java/com/tang/web/action/DecidedzoneAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bos_ssh_web/src/main/java/com/tang/web/action/NoticebillAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bos_ssh_web/src/main/java/com/tang/web/action/SubareaAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bos_ssh_web/src/main/webapp/hua/css/login.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bos_ssh_web/src/main/webapp/unauthorized.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_dao/target/bos_ssh_dao.jar" afterPath="$PROJECT_DIR$/bos_ssh_dao/target/bos_ssh_dao.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_dao/target/classes/com/tang/base/BaseDao.class" afterPath="$PROJECT_DIR$/bos_ssh_dao/target/classes/com/tang/base/BaseDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_dao/target/classes/com/tang/base/RegionDao.class" afterPath="$PROJECT_DIR$/bos_ssh_dao/target/classes/com/tang/base/RegionDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_dao/target/classes/com/tang/base/UserDao.class" afterPath="$PROJECT_DIR$/bos_ssh_dao/target/classes/com/tang/base/UserDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_dao/target/classes/com/tang/base/impl/BaseDaoImpl.class" afterPath="$PROJECT_DIR$/bos_ssh_dao/target/classes/com/tang/base/impl/BaseDaoImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_domain/target/bos_ssh_domain.jar" afterPath="$PROJECT_DIR$/bos_ssh_domain/target/bos_ssh_domain.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_domain/target/classes/com/tang/domain/Decidedzone.class" afterPath="$PROJECT_DIR$/bos_ssh_domain/target/classes/com/tang/domain/Decidedzone.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_domain/target/classes/com/tang/domain/Region.class" afterPath="$PROJECT_DIR$/bos_ssh_domain/target/classes/com/tang/domain/Region.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_domain/target/classes/com/tang/domain/Staff.class" afterPath="$PROJECT_DIR$/bos_ssh_domain/target/classes/com/tang/domain/Staff.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_domain/target/classes/com/tang/domain/Subarea.class" afterPath="$PROJECT_DIR$/bos_ssh_domain/target/classes/com/tang/domain/Subarea.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_service/target/bos_ssh_service.jar" afterPath="$PROJECT_DIR$/bos_ssh_service/target/bos_ssh_service.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_service/target/classes/com/tang/service/RegionService.class" afterPath="$PROJECT_DIR$/bos_ssh_service/target/classes/com/tang/service/RegionService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_service/target/classes/com/tang/service/StaffService.class" afterPath="$PROJECT_DIR$/bos_ssh_service/target/classes/com/tang/service/StaffService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_util/target/bos_ssh_util.jar" afterPath="$PROJECT_DIR$/bos_ssh_util/target/bos_ssh_util.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_util/target/classes/com/tang/utils/Page.class" afterPath="$PROJECT_DIR$/bos_ssh_util/target/classes/com/tang/utils/Page.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_util/target/classes/com/tang/utils/PageHelp.class" afterPath="$PROJECT_DIR$/bos_ssh_util/target/classes/com/tang/utils/PageHelp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_web/target/classes/com/tang/web/action/RegionAction.class" afterPath="$PROJECT_DIR$/bos_ssh_web/target/classes/com/tang/web/action/RegionAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_web/target/classes/com/tang/web/action/base/BaseAction.class" afterPath="$PROJECT_DIR$/bos_ssh_web/target/classes/com/tang/web/action/base/BaseAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_web/target/classes/com/tang/web/action/staff/StaffAction.class" afterPath="$PROJECT_DIR$/bos_ssh_web/target/classes/com/tang/web/action/staff/StaffAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_web/target/classes/com/tang/web/action/user/UserAction.class" afterPath="$PROJECT_DIR$/bos_ssh_web/target/classes/com/tang/web/action/user/UserAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/login_jsp.class" afterPath="$PROJECT_DIR$/bos_ssh_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/login_jsp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/bos_ssh_web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/bos_ssh_web_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_dao/bos_ssh_dao.iml" afterPath="$PROJECT_DIR$/bos_ssh_dao/bos_ssh_dao.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_dao/src/main/java/com/tang/base/BaseDao.java" afterPath="$PROJECT_DIR$/bos_ssh_dao/src/main/java/com/tang/base/BaseDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_dao/src/main/java/com/tang/base/RegionDao.java" afterPath="$PROJECT_DIR$/bos_ssh_dao/src/main/java/com/tang/base/RegionDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_dao/src/main/java/com/tang/base/UserDao.java" afterPath="$PROJECT_DIR$/bos_ssh_dao/src/main/java/com/tang/base/UserDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_dao/src/main/java/com/tang/base/impl/BaseDaoImpl.java" afterPath="$PROJECT_DIR$/bos_ssh_dao/src/main/java/com/tang/base/impl/BaseDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_dao/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/bos_ssh_dao/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/bos_ssh_dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/bos_ssh_dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_domain/bos_ssh_domain.iml" afterPath="$PROJECT_DIR$/bos_ssh_domain/bos_ssh_domain.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_domain/src/main/java/com/tang/domain/Decidedzone.java" afterPath="$PROJECT_DIR$/bos_ssh_domain/src/main/java/com/tang/domain/Decidedzone.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_domain/src/main/java/com/tang/domain/Region.java" afterPath="$PROJECT_DIR$/bos_ssh_domain/src/main/java/com/tang/domain/Region.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_domain/src/main/java/com/tang/domain/Staff.java" afterPath="$PROJECT_DIR$/bos_ssh_domain/src/main/java/com/tang/domain/Staff.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_domain/src/main/java/com/tang/domain/Subarea.java" afterPath="$PROJECT_DIR$/bos_ssh_domain/src/main/java/com/tang/domain/Subarea.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_domain/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/bos_ssh_domain/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_domain/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/bos_ssh_domain/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_domain/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/bos_ssh_domain/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_parent.iml" afterPath="$PROJECT_DIR$/bos_ssh_parent.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_service/bos_ssh_service.iml" afterPath="$PROJECT_DIR$/bos_ssh_service/bos_ssh_service.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_service/src/main/java/com/tang/service/RegionService.java" afterPath="$PROJECT_DIR$/bos_ssh_service/src/main/java/com/tang/service/RegionService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_service/src/main/java/com/tang/service/StaffService.java" afterPath="$PROJECT_DIR$/bos_ssh_service/src/main/java/com/tang/service/StaffService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_service/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/bos_ssh_service/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/bos_ssh_service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/bos_ssh_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_util/bos_ssh_util.iml" afterPath="$PROJECT_DIR$/bos_ssh_util/bos_ssh_util.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_util/src/main/java/com/tang/utils/Page.java" afterPath="$PROJECT_DIR$/bos_ssh_util/src/main/java/com/tang/utils/Page.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_util/src/main/java/com/tang/utils/PageHelp.java" afterPath="$PROJECT_DIR$/bos_ssh_util/src/main/java/com/tang/utils/PageHelp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_util/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/bos_ssh_util/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_util/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/bos_ssh_util/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_util/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/bos_ssh_util/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_web/bos_ssh_web.iml" afterPath="$PROJECT_DIR$/bos_ssh_web/bos_ssh_web.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_web/src/main/java/com/tang/web/action/RegionAction.java" afterPath="$PROJECT_DIR$/bos_ssh_web/src/main/java/com/tang/web/action/RegionAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_web/src/main/java/com/tang/web/action/base/BaseAction.java" afterPath="$PROJECT_DIR$/bos_ssh_web/src/main/java/com/tang/web/action/base/BaseAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_web/src/main/java/com/tang/web/action/staff/StaffAction.java" afterPath="$PROJECT_DIR$/bos_ssh_web/src/main/java/com/tang/web/action/staff/StaffAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_web/src/main/java/com/tang/web/action/user/UserAction.java" afterPath="$PROJECT_DIR$/bos_ssh_web/src/main/java/com/tang/web/action/user/UserAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_web/src/main/resources/spring-hibernate.xml" afterPath="$PROJECT_DIR$/bos_ssh_web/src/main/resources/spring-hibernate.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_web/src/main/resources/struts.xml" afterPath="$PROJECT_DIR$/bos_ssh_web/src/main/resources/struts.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_web/src/main/webapp/WEB-INF/pages/base/decidedzone.jsp" afterPath="$PROJECT_DIR$/bos_ssh_web/src/main/webapp/WEB-INF/pages/base/decidedzone.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_web/src/main/webapp/WEB-INF/pages/base/region.jsp" afterPath="$PROJECT_DIR$/bos_ssh_web/src/main/webapp/WEB-INF/pages/base/region.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_web/src/main/webapp/WEB-INF/pages/base/staff.jsp" afterPath="$PROJECT_DIR$/bos_ssh_web/src/main/webapp/WEB-INF/pages/base/staff.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_web/src/main/webapp/WEB-INF/pages/base/subarea.jsp" afterPath="$PROJECT_DIR$/bos_ssh_web/src/main/webapp/WEB-INF/pages/base/subarea.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_web/src/main/webapp/WEB-INF/pages/qupai/noticebill_add.jsp" afterPath="$PROJECT_DIR$/bos_ssh_web/src/main/webapp/WEB-INF/pages/qupai/noticebill_add.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_web/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/bos_ssh_web/src/main/webapp/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_web/src/main/webapp/login.jsp" afterPath="$PROJECT_DIR$/bos_ssh_web/src/main/webapp/login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_web/target/classes/spring-hibernate.xml" afterPath="$PROJECT_DIR$/bos_ssh_web/target/classes/spring-hibernate.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_web/target/classes/struts.xml" afterPath="$PROJECT_DIR$/bos_ssh_web/target/classes/struts.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/bos_ssh_web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/bos_ssh_web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bos_ssh_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/login_jsp.java" afterPath="$PROJECT_DIR$/bos_ssh_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/login_jsp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/bos_ssh_util/target/" />
+    <ignored path="$PROJECT_DIR$/bos_ssh_service/target/" />
+    <ignored path="$PROJECT_DIR$/bos_ssh_dao/target/" />
+    <ignored path="$PROJECT_DIR$/bos_ssh_web/target/" />
+    <ignored path="$PROJECT_DIR$/bos_ssh_domain/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="DecidedzoneAction.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bos_ssh_web/src/main/java/com/tang/web/action/DecidedzoneAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/bos_ssh_web/src/main/webapp/login.jsp" />
+        <option value="$PROJECT_DIR$/bos_ssh_web/src/main/java/com/tang/web/action/user/UserAction.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$USER_HOME$/apache-maven-3.3.9" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1060" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bos_ssh_parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bos_ssh_parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="js.eslint.eslintPackage" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\bos_ssh_parent\bos_ssh_web\src\main\webapp\hua\css" />
+      <recent name="G:\bos_ssh_parent\bos_ssh_web\src\main\webapp" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Maven.run web">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="bos_ssh_dao" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration default="false" name="run web" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="tomcat7:run" />
+                <option value="-e" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/bos_ssh_web" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="false" name="install parent" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="install" />
+                <option value="-e" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Maven.run web" />
+      <item index="1" class="java.lang.String" itemvalue="Maven.install parent" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="G:\bos_ssh_parent" />
+          <option name="myCopyRoot" value="G:\bos_ssh_parent" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="G:\bos_ssh_parent\.idea" />
+          <option name="myCopyRoot" value="G:\bos_ssh_parent\.idea" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="G:\bos_ssh_parent\bos_ssh_dao" />
+          <option name="myCopyRoot" value="G:\bos_ssh_parent\bos_ssh_dao" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="G:\bos_ssh_parent\bos_ssh_domain" />
+          <option name="myCopyRoot" value="G:\bos_ssh_parent\bos_ssh_domain" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="G:\bos_ssh_parent\bos_ssh_service" />
+          <option name="myCopyRoot" value="G:\bos_ssh_parent\bos_ssh_service" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="G:\bos_ssh_parent\bos_ssh_util" />
+          <option name="myCopyRoot" value="G:\bos_ssh_parent\bos_ssh_util" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="G:\bos_ssh_parent\bos_ssh_web" />
+          <option name="myCopyRoot" value="G:\bos_ssh_parent\bos_ssh_web" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="G:\bos_ssh_parent" />
+          <option name="myCopyRoot" value="G:\bos_ssh_parent" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4e706c7b-956a-4a49-a62e-1efde323d812" name="Default" comment="" />
+      <created>1496168804732</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1496168804732</updated>
+      <workItem from="1496168810736" duration="915000" />
+      <workItem from="1496199413929" duration="675000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1590000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1060" extended-state="7" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23311897" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_ssh_web/src/main/java/com/tang/web/action/user/UserAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_ssh_web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_ssh_dao/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_ssh_web/src/main/webapp/include/head-easyUI.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_ssh_web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_ssh_web/src/main/webapp/include/taglib.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="4" column="15" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_ssh_web/src/main/java/com/tang/web/action/user/UserAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-390">
+          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_ssh_web/src/main/webapp/hua/css/login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1995">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_ssh_web/src/main/webapp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" column="46" lean-forward="false" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_ssh_web/src/main/resources/struts.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1575">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_ssh_web/src/main/java/com/tang/web/action/DecidedzoneAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

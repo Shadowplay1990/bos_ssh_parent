@@ -1,0 +1,51 @@
+package com.tang.service;
+
+import com.tang.base.RegionDao;
+import com.tang.domain.Region;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import java.util.List;
+
+/**
+ * @author: Tang Jiujia
+ * @version: 2017/5/8 0008 22:15
+ */
+@Service
+@Transactional
+public class RegionService {
+
+    @Autowired
+    private RegionDao regionDao;
+
+    public void saveRegionList(List<Region> list){
+
+        for(Region region:list){
+            regionDao.add(region);
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

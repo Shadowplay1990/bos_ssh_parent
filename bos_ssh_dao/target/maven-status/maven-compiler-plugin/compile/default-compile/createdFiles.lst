@@ -1,0 +1,10 @@
+com\tang\base\WorkbillDao.class
+com\tang\base\UserDao.class
+com\tang\base\DecidezoneDao.class
+com\tang\base\RegionDao.class
+com\tang\base\NoticeBillDao.class
+com\tang\base\SubareaDao.class
+com\tang\base\BaseDao.class
+com\tang\base\WorkordermanagerDao.class
+com\tang\base\StaffDao.class
+com\tang\base\impl\BaseDaoImpl.class

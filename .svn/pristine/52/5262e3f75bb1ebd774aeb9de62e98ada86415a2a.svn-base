@@ -1,0 +1,124 @@
+package com.tang.web.action.staff;
+
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.tang.domain.Staff;
+import com.tang.service.StaffService;
+import com.tang.utils.Page;
+import com.tang.utils.PageHelp;
+import com.tang.web.action.base.BaseAction;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Controller;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+/**
+ * @author: Tang Jiujia
+ * @version: 2017/5/7 0007 22:51
+ */
+@Controller
+@Scope("prototype")
+public class StaffAction extends BaseAction<Staff>{
+
+    @Autowired
+    private StaffService staffService;
+    private int page;
+    private int rows;
+    private String ids;
+
+    public String addStaff(){
+        Staff staff = getModel();
+        System.out.println(staff.getStaffid());
+        staff.setDeltag("0");
+        if(!staff.getHaspad().equals("1")){
+            staff.setHaspad("0");
+        }
+        staffService.addStaff(staff);
+        return "staff";
+    }
+
+    public String queryStaff(){
+
+        Page<Staff> pageBean=new Page();
+        pageBean.setCurrentPage(page);
+        pageBean.setCount(rows);
+        Page pageBean2 = staffService.findByPage(pageBean);
+        PageHelp<Staff> pageHelp = new PageHelp<>();
+        pageHelp.setRows(pageBean2.getList());
+        pageHelp.setTotal(pageBean2.getTotalCount());
+        String jsonStr=null;
+        ObjectMapper mapper = new ObjectMapper();
+        try {
+            jsonStr = mapper.writeValueAsString(pageHelp);
+        } catch (JsonProcessingException e) {
+            e.printStackTrace();
+        }
+        System.out.println(jsonStr);
+        getRespone().setContentType("text/json;charset=utf-8");
+        try {
+            try (PrintWriter writer = getRespone().getWriter()) {
+                writer.write(jsonStr);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        return NONE;
+    }
+
+    public String updateDeltag(){
+        System.out.println(ids);
+        String[] ids2 = ids.split(",");
+        staffService.updateByIds(ids2);
+        return "staff";
+    }
+
+    public String editStaff(){
+        staffService.editStaff(getModel());
+        return "staff";
+    }
+
+    public int getPage() {
+        return page;
+    }
+
+    public void setPage(int page) {
+        this.page = page;
+    }
+
+    public int getRows() {
+        return rows;
+    }
+
+    public void setRows(int rows) {
+        this.rows = rows;
+    }
+
+    public String getIds() {
+        return ids;
+    }
+
+    public void setIds(String ids) {
+        this.ids = ids;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

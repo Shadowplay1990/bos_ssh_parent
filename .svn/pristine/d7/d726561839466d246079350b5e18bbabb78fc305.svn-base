@@ -1,0 +1,34 @@
+package com.tang.web.user;
+
+import com.tang.domain.User;
+import com.tang.service.UserService;
+import com.tang.web.base.BaseAction;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Controller;
+
+/**
+ * @author: Tang Jiujia
+ * @version: 2017/5/6 0006 23:27
+ */
+@Controller
+@Scope("prototype")
+public class UserAction extends BaseAction<User>{
+
+    @Autowired
+    private UserService userService;
+    private String checkcode;
+
+    public String login(){
+
+        return null;
+    }
+
+    public String getCheckcode() {
+        return checkcode;
+    }
+
+    public void setCheckcode(String checkcode) {
+        this.checkcode = checkcode;
+    }
+}

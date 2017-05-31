@@ -1,0 +1,9 @@
+com\tang\domain\Staff.class
+com\tang\domain\User.class
+com\tang\domain\RegionHelper.class
+com\tang\domain\Decidedzone.class
+com\tang\domain\Workbill.class
+com\tang\domain\Noticebill.class
+com\tang\domain\Workordermanager.class
+com\tang\domain\Region.class
+com\tang\domain\Subarea.class

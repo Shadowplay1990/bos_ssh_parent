@@ -1,0 +1,41 @@
+package com.tang.service;
+
+import com.tang.base.com.tang.user.UserDao;
+import com.tang.domain.User;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+/**
+ * @author: Tang Jiujia
+ * @version: 2017/5/6 0006 23:16
+ */
+@Service
+@Transactional
+public class UserService {
+
+    @Autowired
+    private UserDao userDao;
+
+    public User login(User user){
+        return userDao.findByNameAndPwd(user);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

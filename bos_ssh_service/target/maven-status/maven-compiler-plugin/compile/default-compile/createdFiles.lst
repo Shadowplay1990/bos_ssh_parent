@@ -1,0 +1,8 @@
+com\tang\service\NoticebillService.class
+com\tang\service\WorkordermanagerService.class
+com\tang\service\UserService.class
+com\tang\realm\UserRealm.class
+com\tang\service\StaffService.class
+com\tang\service\DecidezoneService.class
+com\tang\service\RegionService.class
+com\tang\service\SubareaService.class

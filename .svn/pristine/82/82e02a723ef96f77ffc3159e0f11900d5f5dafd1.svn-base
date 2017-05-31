@@ -1,0 +1,72 @@
+package com.tang.web.action.user;
+
+import com.tang.domain.User;
+import com.tang.service.UserService;
+import com.tang.web.action.base.BaseAction;
+import org.apache.commons.lang3.StringUtils;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Controller;
+
+import javax.servlet.http.HttpSession;
+import java.io.IOException;
+import java.io.PrintWriter;
+
+/**
+ * @author: Tang Jiujia
+ * @version: 2017/5/6 0006 23:27
+ */
+@Controller
+@Scope("prototype")
+public class UserAction extends BaseAction<User>{
+
+    @Autowired
+    private UserService userService;
+    private String checkcode;
+
+    public String login(){
+
+        Object key = getSession().getAttribute("key");
+        if(StringUtils.isNotBlank(checkcode)&&key.equals(key)){
+           User user= userService.login(getModel());
+           if(user!=null){
+               getSession().setAttribute("user",user);
+               return "index";
+           }else{
+               addActionError("用户名或者密码错误！");
+               return "login";
+           }
+        }else{
+            addActionError("验证码错误！");
+            return "login";
+        }
+    }
+
+    public String updatePwd(){
+        String result="1";
+        User user= (User) getSession().getAttribute("user");
+        user.setPassword(getModel().getPassword());
+        try {
+           userService.updatePwd(user);
+        }catch (Exception e){
+            e.printStackTrace();
+            result="0";
+        }
+        getRespone().setContentType("text/html;charset=utf-8");
+        try {
+            PrintWriter writer = getRespone().getWriter();
+            writer.write(result);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return NONE;
+    }
+
+    public String getCheckcode() {
+        return checkcode;
+    }
+
+    public void setCheckcode(String checkcode) {
+        this.checkcode = checkcode;
+    }
+}
